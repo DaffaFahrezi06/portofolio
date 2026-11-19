@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Candidate Preacher Web Dev GDGC</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="font-bold text-lg tracking-tight text-gray-900">
+                Daffa Fahrezi Purdyansyah
+            </span>
+            <div class="space-x-6 text-sm font-medium text-gray-600">
+                <a href="#about" class="hover:text-blue-600 transition">Tentang</a>
+                <a href="#skills" class="hover:text-blue-600 transition">Keahlian</a>
+                <a href="#projects" class="hover:text-blue-600 transition">Proyek</a>
+                <a href="#certificates" class="hover:text-blue-600 transition">Sertifikat</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-6 py-12 space-y-20">
+
+        <!-- Hero & About Me Section -->
+        <section id="about" class="space-y-6 pt-4">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight leading-tight">
+                Halo, saya <span class="text-blue-600">Daffa Fahrezi Purdyansyah</span> 👋
+            </h1>
+            
+            <p class="text-lg text-gray-600 leading-relaxed max-w-3xl">
+                Saya adalah mahasiswa yang berdedikasi tinggi pada dunia teknologi.
+            </p>
+
+            <div class="flex flex-wrap gap-4 pt-2">
+                <a href="mailto:daffafahrezi2016@gmail.com" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-medium px-5 py-2.5 rounded-lg transition shadow-sm">
+                    <i class="far fa-envelope"></i> Hubungi Saya
+                </a>
+                <a href="https://github.com/DaffaFahrezi06" target="_blank" class="inline-flex items-center gap-2 bg-white border border-gray-300 hover:border-gray-400 text-gray-700 font-medium px-5 py-2.5 rounded-lg transition shadow-sm">
+                    <i class="fab fa-github"></i> GitHub Profile
+                </a>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="space-y-6 border-t border-gray-200/60 pt-16">
+            <h2 class="text-2xl font-bold text-gray-900 tracking-tight">Keahlian Teknis</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                <div class="p-4 bg-white border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition">
+                    <div class="text-blue-600 font-bold mb-1">Programming Language</div>
+                    <div class="text-sm text-gray-600">JavaScript, Java, Python, PHP</div>
+                </div>
+                <div class="p-4 bg-white border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition">
+                    <div class="text-blue-600 font-bold mb-1">Frontend Base</div>
+                    <div class="text-sm text-gray-600">HTML, CSS, JavaScript</div>
+                </div>
+                <div class="p-4 bg-white border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition">
+                    <div class="text-blue-600 font-bold mb-1">Frameworks</div>
+                    <div class="text-sm text-gray-600">Tailwind CSS, Bootstrap CSS</div>
+                </div>
+                <div class="p-4 bg-white border border-gray-100 rounded-xl shadow-sm hover:border-blue-200 transition">
+                    <div class="text-blue-600 font-bold mb-1">Tools</div>
+                    <div class="text-sm text-gray-600">Git & GitHub, VS Code, EclipseIDE, Collabs, Figma</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="space-y-8 border-t border-gray-200/60 pt-16">
+            <div>
+                <h2 class="text-2xl font-bold text-gray-900 tracking-tight">Proyek Web Pilihan</h2>
+                <p class="text-gray-500 text-sm mt-1">Beberapa aplikasi dan website yang telah saya kembangkan.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+
+                <!-- Proyek 1 -->
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm flex flex-col justify-between hover:shadow-md transition">
+                    <div class="p-6 space-y-4">
+                        <div class="w-10 h-10 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center font-bold">
+                            01
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900">CalorieMate</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Aplikasi web untuk menghitung kalori makanan dan minuman. Menggunakan Tailwind CSS untuk desain responsif dan JavaScript untuk logika perhitungan dan Java sebagai backend untuk menyimpan data pengguna. Merupakan Tugas Akhir Projek dari Mata Kuliah Rekayasa Perangkat Lunak.
+                        </p>
+                        <div class="flex flex-wrap gap-2 text-xs font-medium text-gray-500">
+                            <span class="bg-gray-100 px-2.5 py-1 rounded">Tailwind</span>
+                            <span class="bg-gray-100 px-2.5 py-1 rounded">JavaScript</span>
+                            <span class="bg-gray-100 px-2.5 py-1 rounded">Java</span>
+                            <span class="bg-gray-100 px-2.5 py-1 rounded">PostgreSQL</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-gray-50 border-t border-gray-100 flex justify-between items-center text-sm font-medium">
+                        <a href="https://github.com/DaffaFahrezi06/project-akhir-rpl" target="_blank" class="text-gray-600 hover:text-gray-900">
+                            GitHub <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Proyek 2 -->
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm flex flex-col justify-between hover:shadow-md transition">
+                    <div class="p-6 space-y-4">
+                        <div class="w-10 h-10 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center font-bold">
+                            02
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900">DapurMu</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Aplikasi web untuk melihat dan menyimpan resep masakan menggunakan browser local storage sehingga tidak perlu repot-repot membuat akun dan login terlebih dahulu untuk menyimpan daftar resep.
+                        </p>
+                        <div class="flex flex-wrap gap-2 text-xs font-medium text-gray-500">
+                            <span class="bg-gray-100 px-2.5 py-1 rounded">Tailwind</span>
+                            <span class="bg-gray-100 px-2.5 py-1 rounded">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-gray-50 border-t border-gray-100 flex justify-between items-center text-sm font-medium">
+                        <a href="https://github.com/DaffaFahrezi06/web-dev-2.0" target="_blank" class="text-gray-600 hover:text-gray-900">
+                            GitHub <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Proyek 3 -->
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm flex flex-col justify-between hover:shadow-md transition">
+                    <div class="p-6 space-y-4">
+                        <div class="w-10 h-10 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center font-bold">
+                            03
+                        </div>
+                        <h3 class="font-bold text-xl text-gray-900">Dashboard Interaktif Informasi Antrean Wisuda</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Penjelasan singkat mengenai proyek 3. Bisa berupa proyek landing page, dashboard, atau modul pengajaran interaktif.
+                        </p>
+                        <div class="flex flex-wrap gap-2 text-xs font-medium text-gray-500">
+                            <span class="bg-gray-100 px-2.5 py-1 rounded">Tailwind</span>
+                            <span class="bg-gray-100 px-2.5 py-1 rounded">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="px-6 py-4 bg-gray-50 border-t border-gray-100 flex justify-between items-center text-sm font-medium">
+                        <a href="https://github.com/DaffaFahrezi06/dashboard-wisuda" target="_blank" class="text-gray-600 hover:text-gray-900">
+                            GitHub <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Certifications Section  -->
+        <section id="certificates" class="space-y-8 border-t border-gray-200/60 pt-16">
+            <div>
+                <h2 class="text-2xl font-bold text-gray-900 tracking-tight">Sertifikasi</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                <!-- Sertifikat 1 -->
+                <a href="https://drive.google.com/file/d/11H8atdUtXZtteJ9W0Vnh-dB-h25etzQR/view?usp=drive_link" target="_blank" class="block h-full p-6 bg-white border border-gray-200 rounded-2xl shadow-sm hover:border-blue-300 hover:shadow-md transition">
+                    <div class="flex items-start gap-4">
+                        <div class="p-3 bg-amber-50 text-amber-600 rounded-xl shrink-0">
+                            <i class="fas fa-certificate text-2xl"></i>
+                        </div>
+                        <div class="space-y-1">
+                            <h3 class="font-bold text-gray-900">Web Development (Back End) Weekly Class 2025</h3>
+                            <p class="text-sm text-gray-600 pt-2">
+                                Memahami fondasi mendasar Back End Development.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Sertifikat 2 -->
+                <a href="https://drive.google.com/file/d/1c68XUsnfQ5XxoVhiU_s1qs3YQGsjTZ5f/view?usp=drive_link" target="_blank" class="block h-full p-6 bg-white border border-gray-200 rounded-2xl shadow-sm hover:border-blue-300 hover:shadow-md transition">
+                    <div class="flex items-start gap-4">
+                        <div class="p-3 bg-amber-50 text-amber-600 rounded-xl shrink-0">
+                            <i class="fas fa-certificate text-2xl"></i>
+                        </div>
+                        <div class="space-y-1">
+                            <h3 class="font-bold text-gray-900">Web Dev 2.0 Weekly Class 2026</h3>
+                            <p class="text-sm text-gray-600 pt-2">
+                                Memahami fondasi mendasar Web Development dan framework yang digunakan.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Sertifikat 3 -->
+                <a href="https://drive.google.com/file/d/1TCYtyFhphzaUT3_5Czm5Ib_wK0u6fL4A/view?usp=drive_link" target="_blank" class="block h-full p-6 bg-white border border-gray-200 rounded-2xl shadow-sm hover:border-blue-300 hover:shadow-md transition">
+                    <div class="flex items-start gap-4">
+                        <div class="p-3 bg-amber-50 text-amber-600 rounded-xl shrink-0">
+                            <i class="fas fa-certificate text-2xl"></i>
+                        </div>
+                        <div class="space-y-1">
+                            <h3 class="font-bold text-gray-900">AI/ML Advanced Weekly Class 2026</h3>
+                            <p class="text-sm text-gray-600 pt-2">
+                                Memahami konsep dan teknik lebih lanjut dalam penggunaan dan training model AI/ML.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-200 mt-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6 py-8 text-center text-sm text-gray-500">
+            <p>© 2026 Daffa Fahrezi</p>
+        </div>
+    </footer>
+
+</body>
+</html>
